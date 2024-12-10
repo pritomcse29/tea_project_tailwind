@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!--Tailwind CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <!--google font awesome-->
+    <script src="https://kit.fontawesome.com/1c433b5b8c.js" crossorigin="anonymous"></script>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-16">
+        <!--header section-->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <div class="mt-10">
+            <h1 class="text-5xl font-bold leading-tight">It's good <br>
+                tea time at The<br> Tea House</h1>
+                <p class="text-gray-500 lg:w-3/4 w-full mt-7">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="mt-7 bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-xl text-white ">Explore More</button>
+            </div>
+            <div class="relative">
+            <img class="h-96" src="images/banner.png" alt="">
+            <div class="absolute flex shadow-2xl  py-4 items-center px-6 rounded-xl left-20 lg:left-20 z-10 bg-white top-72">
+                    <i class="fa-solid fa-star mr-2 py-3 text-yellow-300"></i>
+                <div>
+                      <h2>5.00</h2>
+                      <p>Trust Pilot Ratings</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--Our Feature Product-->
+        <div class="mt-32">
+            <h2 class="text-3xl font-bold text-center">Our Featured Products</h2>
+            <p class="text-gray-500 text-center px-40">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                  <div>
+                    <img src="images/tea-1.png" alt="">
+                    <h3>Milk Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                  </div>
+                  <div>
+                    <img src="images/tea-2.png" alt="">
+                    <h3>Black Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                  </div>
+                  <div>
+                    <img src="images/tea-3.png" alt="">
+                    <h3>Lemon Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                  </div>
+                  <div>
+                    <img src="images/tea-4.png" alt="">
+                    <h3>Green Tea</h3>
+                    <p>Creamer could be replaced by fresh milk</p>
+                  </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
